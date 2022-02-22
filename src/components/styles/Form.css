@@ -1,0 +1,21 @@
+.form-group label {
+    border-bottom: 1px solid #29d5f3;
+    padding-top: 10px;
+    padding-top: 10px;
+    float: left;
+    width: 100%;
+}
+
+.titleHome {
+    background-color: #29d5f363;
+}
+
+.row .btn {
+    background-color: #29d5f363;
+    color: #fff;
+    border: 1px solid #29d5f3;
+}
+
+.row .btn:hover {
+    background-color: #29d5f3da;
+}

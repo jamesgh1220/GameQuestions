@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgb(161, 155, 155);
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.App {
+    min-height: 100vh;
+    padding: 5px;
+}
