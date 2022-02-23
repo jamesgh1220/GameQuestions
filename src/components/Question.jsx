@@ -75,7 +75,6 @@ function Question(props) {
         <Timer startCount={500}/>
         <div className="question mb-4 mb-md-0">
           <h3>{questions[currQues].question}</h3>
-          {/*error ? <Error>Select one answer please!</Error> : null*/}
           <div className="optionsQuestion mb-3 mb-md-0">
             {
               // Iterando sobre las opciones

@@ -28,15 +28,6 @@ function Form({requestAPI}) {
     const handleSubmit=()=>{
         // Capturando la información del formulario utilizando FormData
         const formData=new FormData(form.current);
-
-        // Estructura del objeto dataGame con la información extraida del formulario
-        /*
-        const dataGame={
-            'username': formData.get('username'),
-            'category': formData.get('category'),
-            'dificult': formData.get('dificult'),
-        }
-        */
         const getUsername=formData.get('username');
         const getCategory=formData.get('category');
         const getDificult=formData.get('dificult');
