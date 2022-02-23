@@ -59,7 +59,7 @@ function Question(props) {
     useEffect(() => {
           setTimeout(() => {
             history.push("/");
-          }, 500000);
+          }, 300000);
     })   
 
     const handleQuit=()=>{
@@ -72,7 +72,7 @@ function Question(props) {
         <h1>
           Question Number <span>{currQues + 1}</span>
         </h1>
-        <Timer startCount={500}/>
+        <Timer startCount={300}/>
         <div className="question mb-4 mb-md-0">
           <h3>{questions[currQues].question}</h3>
           <div className="optionsQuestion mb-3 mb-md-0">
